@@ -1,0 +1,85 @@
+{
+    "ui": {
+        "buttons": {
+            "load": "Load",
+            "generate": "Generate",
+            "solve": "Solve",
+            "reset": "Reset",
+            "save": "Save",
+            "exit": "Exit",
+            "interrupt": "Stop"
+        },
+        "messages": {
+            "solved": "Solved!",
+            "unsolved": "Could not solve!",
+            "interrupted": "Interrupted",
+            "generating": "Generating puzzle...",
+            "generation_completed": "Puzzle generation completed",
+            "reset_completed": "Reset completed",
+            "file_saved": "File saved",
+            "load_failed": "Load failed: {0}",
+            "save_failed": "Save failed: {0}",
+            "solving_disabled": "Not available during solving",
+            "cell_unchangeable": "This number cannot be changed",
+            "select_difficulty": "Select difficulty:"
+        },
+        "difficulties": {
+            "easy": "Easy",
+            "medium": "Medium",
+            "hard": "Hard",
+            "random": "Random"
+        },
+        "window_title": "Sudoku Solver"
+    },
+    "file_io": {
+        "errors": {
+            "invalid_format": "Invalid file format",
+            "file_not_found": "File not found: {0}"
+        }
+    },
+    "board": {
+        "errors": {
+            "invalid_rows": "Board must have 9 rows",
+            "invalid_columns": "Each row must have 9 columns",
+            "invalid_cell": "Each cell must be an integer between 0 and 9"
+        }
+    },
+    "game": {
+        "messages": {
+            "board_loaded": "Board loaded successfully",
+            "invalid_file_format": "Invalid file format: {0}",
+            "load_error": "Error occurred while loading the board: {0}",
+            "ui_init_error": "Error occurred while initializing UI settings: {0}",
+            "ui_load_error": "Failed to load UI settings file",
+            "board_init_error": "Error occurred while initializing the board: {0}",
+            "file_not_found": "File not found: {0}",
+            "invalid_board": "The board has rule violations"
+        }
+    },
+    "console": {
+        "messages": {
+            "loading_puzzle": "Loading puzzle...",
+            "puzzle_loaded": "Puzzle loaded.",
+            "solving_puzzle": "Solving puzzle...",
+            "solution": "Solution:",
+            "no_solution": "No solution found.",
+            "solving_time": "Solving time: {0:.2f} seconds",
+            "generating_puzzle": "Generating puzzle...",
+            "puzzle_generated": "Puzzle generated.",
+            "puzzle_saved": "Puzzle saved to: {0}",
+            "save_error": "Error occurred while saving: {0}",
+            "original_puzzle": "Original Sudoku Puzzle",
+            "error": "Error"
+        }
+    },
+    "main": {
+        "errors": {
+            "ui_load_error": "Failed to load UI settings."
+        }
+    },
+    "renderer": {
+        "solving_speed": "Solving Speed",
+        "slow": "Slow",
+        "fast": "Fast"
+    }
+} 

@@ -1,0 +1,23 @@
+__pycache__/
+.pytest_cache
+generated/
+tmp/
+build/
+dist/
+*.log
+*.pyc
+*.tmp
+release.ps1
+sudoku_solver.spec
+docs/design_overview.html
+
+# IDE関連
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 一時ファイル
+*~
+Thumbs.db
+.DS_Store

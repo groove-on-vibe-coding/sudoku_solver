@@ -1,0 +1,85 @@
+{
+    "ui": {
+        "buttons": {
+            "load": "読み込み",
+            "generate": "生成",
+            "solve": "解く",
+            "reset": "リセット",
+            "save": "保存",
+            "exit": "終了",
+            "interrupt": "中断"
+        },
+        "messages": {
+            "solved": "解けました！",
+            "unsolved": "解けませんでした！",
+            "interrupted": "中断しました",
+            "generating": "問題を生成中です...",
+            "generation_completed": "問題の生成が完了しました",
+            "reset_completed": "リセットしました",
+            "file_saved": "ファイルを保存しました",
+            "load_failed": "読み込み失敗: {0}",
+            "save_failed": "保存失敗: {0}",
+            "solving_disabled": "解答中は使用できません",
+            "cell_unchangeable": "この数字は変更できません",
+            "select_difficulty": "難易度を選択してください:"
+        },
+        "difficulties": {
+            "easy": "簡単",
+            "medium": "普通",
+            "hard": "難しい",
+            "random": "ランダム"
+        },
+        "window_title": "数独ソルバー"
+    },
+    "file_io": {
+        "errors": {
+            "invalid_format": "ファイル形式が異なります",
+            "file_not_found": "ファイルが見つかりません: {0}"
+        }
+    },
+    "board": {
+        "errors": {
+            "invalid_rows": "ボードは9行である必要があります",
+            "invalid_columns": "各行は9列である必要があります",
+            "invalid_cell": "各セルは0〜9の整数である必要があります"
+        }
+    },
+    "game": {
+        "messages": {
+            "board_loaded": "盤面を正常に読み込みました",
+            "invalid_file_format": "ファイルの形式が不正です: {0}",
+            "load_error": "盤面の読み込み中にエラーが発生しました: {0}",
+            "ui_init_error": "UI 設定の初期化中にエラーが発生しました: {0}",
+            "ui_load_error": "UI 設定ファイルの読み込みに失敗しました",
+            "board_init_error": "盤面の初期化中にエラーが発生しました: {0}",
+            "file_not_found": "ファイルが見つかりません: {0}",
+            "invalid_board": "盤面にルール違反があります"
+        }
+    },
+    "console": {
+        "messages": {
+            "loading_puzzle": "パズルを読み込んでいます...",
+            "puzzle_loaded": "パズルを読み込みました。",
+            "solving_puzzle": "パズルを解いています...",
+            "solution": "解答:",
+            "no_solution": "解答がありません。",
+            "solving_time": "解答時間: {0:.2f} 秒",
+            "generating_puzzle": "パズルを生成しています...",
+            "puzzle_generated": "パズルを生成しました。",
+            "puzzle_saved": "パズルを保存しました: {0}",
+            "save_error": "保存中にエラーが発生しました: {0}",
+            "original_puzzle": "元の数独パズル",
+            "error": "エラー"
+        }
+    },
+    "main": {
+        "errors": {
+            "ui_load_error": "UI 設定の読み込みに失敗しました。"
+        }
+    },
+    "renderer": {
+        "solving_speed": "解答速度",
+        "slow": "遅い",
+        "fast": "速い"
+    }
+} 

@@ -1,0 +1,43 @@
+{
+    "window": {
+        "width": 600,
+        "height": 720
+    },
+    "cell_size": 60,
+    "colors": {
+        "background": [255, 255, 255],
+        "grid": [100, 100, 100],
+        "selected_grid": [255, 0, 0],
+        "button_area": [255, 255, 255],
+        "button": [173, 216, 230],
+        "button_hover": [200, 230, 255],
+        "cell_background": [218, 242, 208],
+        "message_background": [240, 240, 240],
+        "text_default": [10, 10, 10],
+        "text_added": [0, 0, 255],
+        "valid": [0, 200, 0],
+        "invalid": [200, 0, 0]
+    },
+    "font": {
+        "default": "meiryo",
+        "num_size": 36,
+        "message_size": 24,
+        "button_size": 16,
+        "speed_size": 16
+    },
+    "board_margin": {
+        "top": 60,
+        "bottom": 40
+    },
+    "board_origin": [30, 5],
+    "button": {
+        "width": 80,
+        "height": 30,
+        "start_x": 36,
+        "start_y": 560,
+        "margin_x": 90
+    },
+    "slider_position": [200, 640],
+    "message_area_height": 50,
+    "language": "ja"
+}
