@@ -10,6 +10,7 @@ dist/
 release.ps1
 sudoku_solver.spec
 docs/design_overview.html
+release_notes/
 
 # IDE関連
 .vscode/
