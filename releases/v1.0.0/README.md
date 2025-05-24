@@ -1,5 +1,7 @@
 # 🧩 Sudoku Solver v1.0.0
 
+![Demo](../../assets/demo.gif)
+
 ---
 
 ## <img src="https://flagcdn.com/w40/jp.png" style="border: 1px solid #ccc; border-radius: 0px;"> 日本語 (Japanese)
